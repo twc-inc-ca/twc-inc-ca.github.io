@@ -1,6 +1,6 @@
 //Fade in animation
 function showText(id) {
-    document.getElementById(id).style.display = "inline";
+  document.getElementById(id).style.display = "inline";
 }
 
 const observer = new IntersectionObserver(entries => {
@@ -10,7 +10,7 @@ const observer = new IntersectionObserver(entries => {
       if (entry.isIntersecting) {
         // Add the animation class
         entry.target.classList.add('fadein');
-        
+        entry.target.classList.add('visible');
         
       }
     });
