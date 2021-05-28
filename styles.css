@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', sans-serif;
     color: white;
 }
 
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .isFlexContainer {
     display:inline-flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -38,8 +38,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', san-serif;
     font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #142252;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: #142252;
 }
 
 
@@ -49,9 +62,10 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(Images/Picture1.png);
     width: 100%;
     background-size: cover;
+    background-position: fixed;
     min-height: 40em;
     margin-bottom: 20px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', sans-serif;
 }
 
 .splash h1 {
@@ -75,8 +89,9 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10%;
     padding: 30px 20px 30px 20px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', sans-serif;
     opacity: 0; 
+    margin-left: 10%;
 }
 
 .splash-box p {
@@ -94,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .button:hover {
     background-color: #2933A3;
+    cursor: pointer;
 }
 
 .button p {
@@ -122,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 .visible {
-    opacity: 1;
+    opacity: 1!important;
 }
 
   /* Facts Sections */
@@ -163,6 +179,26 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     margin-bottom: 20px;
     color: white;
+}
+
+/* Location Section */
+.location {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color: white;
+    border-top: 2px solid white;
+}
+
+.location-container {
+    width: 100%;
+    background-color: #142252;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.location-container img {
+    width: 100%;
 }
 
 /*Footer */
@@ -208,10 +244,91 @@ h1, h2, h3, h4, h5, h6 {
 .devInfo {
     max-width: 50%;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#devText {
+    background-color: #142252;
+    opacity: 0;
+}
+
+.map {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        color: white;
+        border-top: 2px solid white;
+}
+
+.map-container {
+    width: 100%;
+    background-color: #142252;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.google-map {
+    width: 100%;
+    height: 600px;
 }
 
 
+/* WHO WE ARE PAGE */
+.foundation-container {
+    border-top: white 2px solid;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+}
 
+.the-foundation {
+    background-color: #142252;
+    margin-top: 10px;
+    color: white;
+    padding-left: 10px;
+}
+
+.heading {
+    background-color: #142252;
+    margin-bottom: -18px;
+    padding-left: 10px;
+}
+
+.team-members-container {
+    border-top: white 2px solid;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color: white;
+    padding-top: 10px;
+}
+
+.svn {
+    border-top: none !important;
+    padding-top: 10px;
+}
+
+.logo {
+    margin: 20px;
+    width: 20%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.team {
+       margin-left: 10px;
+       width: 80%;
+}
+
+.company {
+    border-top: white 0.5px solid;
+    background-color: #142252;
+    padding-left: 10px;
+}
 
 
 /* About the Project */
@@ -226,10 +343,6 @@ h1, h2, h3, h4, h5, h6 {
   .about-box img {
       max-width: 100%;
       margin-bottom: 20px;
-  }
-
-  .map {
-      border: 2px dashed red;
   }
 
 /* Contact Form */
