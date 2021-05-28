@@ -1,0 +1,317 @@
+/* Global Styles */
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+body {
+    background-color: #474A48;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+.isFlexContainer {
+    display:inline-flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.isFlexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation */
+
+.navbar {
+    padding-left: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+}
+
+
+/* Splash section */
+
+.splash {
+    background-image: url(Images/Picture1.png);
+    width: 100%;
+    background-size: cover;
+    min-height: 40em;
+    margin-bottom: 20px;
+    font-family: 'Poiret One', cursive;
+}
+
+.splash h1 {
+    color: black;
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+
+.splash h2 {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.splash-box {
+    max-width: 20%;
+    min-width: min-content;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10%;
+    padding: 30px 20px 30px 20px;
+    font-family: 'Poiret One', cursive;   
+}
+
+.splash-box p {
+    font-size: 1.25rem;
+}
+
+.button {
+    width: 75%;
+    border: 2px solid white;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #5762D5;
+    color: white;
+}
+
+.button:hover {
+    background-color: #2933A3;
+}
+
+.button p {
+    padding-top: 10px;
+}
+
+/* Animations */
+
+@media (prefers-reduced-motion: no-preference) {
+    .fadein {
+        animation-name: opacity;
+        animation-duration: 1.2s; 
+        animation-timing-function: ease-in; 
+        animation-delay: 0s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+        animation-play-state: running;
+    }
+}
+@keyframes opacity {
+    0% {
+      opacity: 0;;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Facts Sections */
+  .facts {
+      width: 95%;
+      margin-left: 2.5%;
+      align-content: center;
+      background-color: #909590;
+      margin-bottom: 20px;
+  }
+
+  .fact-box {
+      text-align: center;
+      background-color: #909590;
+      padding: 20px;
+      width: 25%;
+      height: 15rem;
+      padding-top: 75px;
+      border-right: white 2px solid;
+  }
+
+  .fact-box h5 {
+    font-size: 1.5rem;
+}
+.fact-box h3 {
+    font-size: 2.5rem;
+}
+
+  .fact-box:last-child {
+      border-right: 0px;
+  }
+
+/*Main Section */
+.main {
+    width: 95%;
+    background-color: #909590;
+    margin-left: 2.5%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*Footer */
+.footer {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    border-top: 1px solid white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stickyFooter {
+    position: absolute;
+    bottom: 10px;
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    border-top: 1px solid white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContent {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+/* THE PROPOSED DEVELOPMENT */
+
+.theDevelopment {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color: white;
+    border-top: 2px solid white;
+}
+
+.devInfo {
+    max-width: 50%;
+    padding: 10px;
+}
+
+
+
+
+
+/* About the Project */
+.about {
+    border-top: solid white 1px;
+}  
+
+.about-box {
+      width: 90%;
+  }
+
+  .about-box img {
+      max-width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .map {
+      border: 2px dashed red;
+  }
+
+/* Contact Form */
+
+
+
+  /* Breakpoint mobile 600px */
+
+  @media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait) { 
+      .isFlexContainer {
+          display: inline-flex;
+          flex-direction: column;
+      }
+
+      .splash-box {
+          margin-top: 50px;
+      }
+
+      #hidden {
+        display: none;
+    }
+
+      .fact-box {
+        text-align: center;
+        background-color: #909590;
+        padding: 20px;
+        width: 100%;
+        height: 15rem;
+        padding-top: 75px;
+        border-bottom: white 2px solid;
+        border-right: none;
+    }
+    
+    .fact-box h5 {
+        font-size: 2rem;
+    }
+    .fact-box h3 {
+        font-size: 3rem;
+    }
+    .navbar-toggler-icon{
+        padding: 30px !important;
+      }
+      .nav-link {
+          font-size: 1.5rem;
+      }
+
+
+   }
+
+   @media only screen 
+  and (max-width: 600px) {
+    .isFlexContainer {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    
+
+    #hidden {
+        display: none;
+    }
+
+    .fact-box {
+      text-align: center;
+      background-color: #909590;
+      padding: 20px;
+      width: 100%;
+      height: 15rem;
+      padding-top: 75px;
+      border-bottom: white 2px solid;
+      border-right: none;
+  }
+  
+  .fact-box h5 {
+      font-size: 2rem;
+  }
+  .fact-box h3 {
+      font-size: 3rem;
+  }
+  .navbar-toggler-icon{
+    padding: 30px !important;
+  }
+  .nav-link {
+      font-size: 1.5rem;
+  }
+  }
