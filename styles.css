@@ -411,7 +411,7 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (orientation: portrait) { 
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
 
       .isFlexContainer {
@@ -446,7 +446,7 @@ and (orientation: portrait) {
         font-size: 3rem;
     }
     .navbar-toggler-icon{
-        padding: 30px !important;
+        padding: 20px !important;
       }
       .nav-link {
           font-size: 1.5rem;
@@ -466,7 +466,7 @@ and (orientation: portrait) {
   and (max-width: 600px) {
 
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .isFlexContainer {
