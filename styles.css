@@ -346,8 +346,54 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 20px;
   }
 
-/* Contact Form */
 
+/* TIMELINE & MILESTONES */
+.timelineContainer {
+    border-top: white 2px solid;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color: white;
+    padding-top: 10px;
+    background-color: #142252;
+}
+
+.timelineInfo {
+    width: 50%;
+    margin: 10px;
+}
+
+.timelineImage {
+    width: 50%;
+    margin: 10px;
+}
+
+.timelineImage img {
+    width: 100%;
+}
+
+
+
+  /* Contact Form */
+
+
+.contactContainer {
+    border-top: white 2px solid;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color: white;
+    background-color: #142252;
+}
+
+.contactImage {
+    width: 60%;
+    margin-right: 10px;
+}
+
+.contactImage img {
+    max-width: 100%;
+}
 
 
   /* Breakpoint mobile 600px */
@@ -371,7 +417,6 @@ and (orientation: portrait) {
 
       .fact-box {
         text-align: center;
-        background-color: #909590;
         padding: 20px;
         width: 100%;
         height: 15rem;
@@ -411,7 +456,6 @@ and (orientation: portrait) {
 
     .fact-box {
       text-align: center;
-      background-color: #909590;
       padding: 20px;
       width: 100%;
       height: 15rem;
