@@ -459,8 +459,15 @@ and (orientation: portrait) {
         flex-direction: column;
     }
 
-    
+/* Navbar */
+    .navbar-toggler-icon{
+        padding: 30px !important;
+    }
+    .nav-link {
+        font-size: 1.5rem;
+    }   
 
+/* INDEX */
     #hidden {
         display: none;
     }
@@ -481,10 +488,10 @@ and (orientation: portrait) {
   .fact-box h3 {
       font-size: 3rem;
   }
-  .navbar-toggler-icon{
-    padding: 30px !important;
+
+/* THE DEVELOPMENT */
+  .devInfo {
+      width: 100%;
   }
-  .nav-link {
-      font-size: 1.5rem;
-  }
+  
   }
