@@ -448,6 +448,9 @@ and (orientation: portrait) {
     .devInfo {
         max-width: 100%;
 }
+    .devInfo img {
+        width: 100%;
+    }
 
    }
 
