@@ -446,7 +446,7 @@ and (orientation: portrait) {
 
 /* THE DEVELOPMENT */
     .devInfo {
-        width: 100%;
+        max-width: 100%;
 }
 
    }
@@ -495,7 +495,7 @@ and (orientation: portrait) {
 
 /* THE DEVELOPMENT */
   .devInfo {
-      width: 100%;
+      max-width: 100%;
   }
   
   }
