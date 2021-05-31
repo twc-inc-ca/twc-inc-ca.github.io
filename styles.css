@@ -402,6 +402,10 @@ h1, h2, h3, h4, h5, h6 {
 and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (orientation: portrait) { 
+    html {
+        font-size: 24px;
+    }
+
       .isFlexContainer {
           display: inline-flex;
           flex-direction: column;
@@ -409,6 +413,8 @@ and (orientation: portrait) {
 
       .splash-box {
           margin-top: 50px;
+          margin-left: 0px;
+          margin-right: 0px;
       }
 
       #hidden {
@@ -417,7 +423,7 @@ and (orientation: portrait) {
 
       .fact-box {
         text-align: center;
-        padding: 20px;
+        padding-bottom: 50px;
         width: 100%;
         height: 15rem;
         padding-top: 75px;
@@ -443,6 +449,11 @@ and (orientation: portrait) {
 
    @media only screen 
   and (max-width: 600px) {
+
+    html {
+        font-size: 24px;
+    }
+
     .isFlexContainer {
         display: inline-flex;
         flex-direction: column;
