@@ -410,9 +410,7 @@ h1, h2, h3, h4, h5, h6 {
 and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (orientation: portrait) { 
-    html {
-        font-size: 18px;
-    }
+
 
       .isFlexContainer {
           display: inline-flex;
@@ -466,9 +464,7 @@ and (orientation: portrait) {
    @media only screen 
   and (max-width: 600px) {
 
-    html {
-        font-size: 18px;
-    }
+   
 
     .isFlexContainer {
         display: inline-flex;
