@@ -445,13 +445,14 @@ and (orientation: portrait) {
     .fact-box h3 {
         font-size: 3rem;
     }
+/*
     .navbar-toggler-icon{
         padding: 20px !important;
       }
       .nav-link {
           font-size: 1rem;
       }
-
+*/
 /* THE DEVELOPMENT */
     .devInfo {
         width: 100%;
@@ -474,14 +475,14 @@ and (orientation: portrait) {
         flex-direction: column;
     }
 
-/* Navbar */
+/* Navbar 
     .navbar-toggler-icon{
         padding: 20px !important;
     }
     .nav-link {
         font-size: 1rem;
     }   
-
+*/
 /* INDEX */
     #hidden {
         display: none;
