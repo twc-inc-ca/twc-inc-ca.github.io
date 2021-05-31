@@ -365,11 +365,15 @@ h1, h2, h3, h4, h5, h6 {
 .timelineInfo {
     width: 50%;
     margin: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 .timelineImage {
     width: 50%;
     margin: 10px;
+    padding-left: 5px;
+    padding-right:10px;
 }
 
 .timelineImage img {
