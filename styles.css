@@ -449,7 +449,7 @@ and (orientation: portrait) {
         padding: 20px !important;
       }
       .nav-link {
-          font-size: 1.5rem;
+          font-size: 1rem;
       }
 
 /* THE DEVELOPMENT */
@@ -476,10 +476,10 @@ and (orientation: portrait) {
 
 /* Navbar */
     .navbar-toggler-icon{
-        padding: 30px !important;
+        padding: 20px !important;
     }
     .nav-link {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }   
 
 /* INDEX */
