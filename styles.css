@@ -411,7 +411,7 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (orientation: portrait) { 
     html {
-        font-size: 26px;
+        font-size: 20px;
     }
 
       .isFlexContainer {
@@ -466,7 +466,7 @@ and (orientation: portrait) {
   and (max-width: 600px) {
 
     html {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .isFlexContainer {
