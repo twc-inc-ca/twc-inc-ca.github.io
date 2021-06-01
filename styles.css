@@ -317,11 +317,14 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
     margin: 20px;
     width: 12%;
+    
     background-color: white;
+    
 }
 
 .logo img {
     width: 100%;
+    align-items: center;
 }
 
 .team {
