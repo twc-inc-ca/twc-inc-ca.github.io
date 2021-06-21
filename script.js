@@ -42,7 +42,7 @@ const observer = new IntersectionObserver(entries => {
         }
         
         const obj = document.getElementById("value");
-        animateValue(obj, 300, 322, 1700);
+        animateValue(obj, 300, 317, 1700);
         
         
       }
