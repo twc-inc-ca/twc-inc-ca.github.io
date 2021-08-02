@@ -320,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
     margin: 20px;
-    width: 12%;
+    width: 20%;
         
     background-color: white;
     
@@ -529,8 +529,6 @@ and (orientation: portrait) {
   .devInfo img {
     width: 100%;
 }
-  
-  }
 
 /*TIMELINE & MILESTONES */
   .timelineInfo {
@@ -542,3 +540,10 @@ and (orientation: portrait) {
     width: 100%;
     margin: 0px;
 }
+
+/*WHO WE ARE */
+    .logo {
+        width: 60%;
+    }
+
+  }
