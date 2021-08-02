@@ -534,6 +534,7 @@ and (orientation: portrait) {
   .timelineInfo {
     width: 100%;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
 .timelineImage {
