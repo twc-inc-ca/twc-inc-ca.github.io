@@ -458,6 +458,12 @@ and (orientation: portrait) {
           font-size: 1rem;
       }
 */
+
+/* FOOTER */
+    .footerContent {
+        font-size: 0.5rem;
+    }
+
 /* THE DEVELOPMENT */
     .devInfo {
         width: 100%;
