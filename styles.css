@@ -221,6 +221,10 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 
+.footer a {
+    color: white;
+}
+
 .stickyFooter {
     position: absolute;
     bottom: 10px;
