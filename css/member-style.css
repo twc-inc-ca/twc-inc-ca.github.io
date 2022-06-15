@@ -158,8 +158,8 @@
     text-align: center;
     width: 30%;
     margin: 5px;
-    height:3rem;
-    line-height: 3rem;
+    min-height:3rem;
+    
 }
 
 #FAQ {
