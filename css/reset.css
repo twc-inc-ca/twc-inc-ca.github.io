@@ -15,9 +15,7 @@ a:focus {
 a {
 	text-decoration:none;
 }
-ol, ul {
-	list-style:;
-}
+
 blockquote, q {
 }
 blockquote:before, blockquote:after, q:before, q:after {

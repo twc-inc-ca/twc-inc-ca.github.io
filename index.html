@@ -4,8 +4,12 @@
 <title>Norris Cooperative Homes | Members Area</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="css/member-style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/member-style.css">
 <script src="js/jquery.js" type="text/javascript"></script>
 
 <script src="js/jquery.cycle.all.min.js" type="text/javascript"></script>
@@ -90,7 +94,7 @@ function cal() {
     </ul>
 </section> -->
 
-<section>
+<section id="intro">
     <h1>Norris Crescent Housing Co-Op Proposed Redevelopment - Members Information Area</h1>
     <div class="intro">
         <div class="introInfo">
@@ -105,25 +109,98 @@ function cal() {
 </section>
 
 
+<section id="contact">
+    <div class="section_header">
+        <h2>Have Your Say</h2>
+    </div>
+    <div class="contact-info">
+        <div class="contact-blurb">
+            <p>If you have any questions, comments or concerns, feel free to complete the contact form or email <a href="mailto:norrisredev@gmail.com">norrisredev@gmail.com</a>. This email address should <strong><em>only</em></strong> be used for thoughts related to the new proposed development. </p>
+            <p>Submissions will be reviewed and answers posted to this web page as soon as possible.</p>
+        </div>
+        <div class="contact-container">
+            <div id="contact-form">
+                <!--
+            <form action="/contact-responses" method="post">
+                <div class="form-item">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="user_name" placeholder="Name">
+                </div>
+                <div class="form-item">
+                      <label for="mail">E-mail:</label>
+                      <input type="email" id="mail" name="user_email" placeholder="E-Mail Address">
+                </div>
+                <div class="form-item">
+                      <label for="msg">Message:</label>
+                      <textarea id="msg" name="user_message" placeholder="Type your question or comment here..."></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+                
+            </form>
+        -->
+
+        <form>
+            <ul class="flex-outer">
+              <li>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter your first name here">
+              </li>
+              <li>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter your last name here">
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email here">
+              </li>
+              <li>
+                <label for="message">Message</label>
+                <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+              </li>
+              <li>
+                <button type="submit">Submit</button>
+              </li>
+            </ul>
+          </form>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section id="about">
         <div class="section_header">
             <h2>About the Development</h2>
         </div>
     <div class="about_container">
         <div class="about_stats">
-            <p>Proposed New Norris Co-Op Building:</p>
-            <ul>
-                <li>43 Units</li>
-                <li>Mix of 1, 2 and 3 Bedrooms, including accessible Units</li>
-                <li>Individual heat and air conditioning controls</li>
-                <li>Amenity spaces include:</li>
-                <ul>
-                    <li>Onsite laundry room</li>
-                    <li>Meeting Space</li>
-                    <li>Proposed rooftop outdoor space</li>
-                </ul>
-                <li>Built to high energy efficiency and low environmental impact standards</li>
-            </ul>
+            <p> The Proposed New Norris Crescent Co-Op Building Will Include:</p>
+            <div class="stat">
+                    <p>43 Units</p>
+            </div>
+            <div class="stat">
+                    <p>Mix of 1, 2 and 3 Bedrooms, Including Accessible Units</p>
+            </div>
+            <div class="stat">
+                    <p>Individual Heat and Air Conditioning Controls</p>
+            </div>
+            <div class="stat">
+                    <p>Onsite Laundry Room</p>
+            </div>
+            <div class="stat">
+                    <p>Meeting Space</p>
+            </div>
+            <div class="stat">
+                    <p>Proposed Rooftop Outdoor Space</p>
+            </div>
+            <div class="stat">
+                    <p>Built to High Energy Efficiency and Low Environmental Impact Standards</p>
+            </div>
+
         </div>
         <div class="about_image_container">
             <div class="about_img">
@@ -137,23 +214,7 @@ function cal() {
     </div>
 </section>
     
-<section id="resources">
-    <h2>Resources</h2>
-        <p>Here are some useful resources available to download related to the proposed development:</p>
-    <div class="resources">
-        
-        <div class="resource_container">
-            <p><img src="images/pdf.png"/><a href="Docs/Redevelopment_Membership_Handout_May_2022.pdf" target="_blank"> Q & A Handout - May 2022</a></p>
-        </div>
-        <div class="resource_container">
-            <p><img src="images/pdf.png"/><a href="Docs/Norris_Scheme_B-Draft_1.pdf" target="_blank"> Initial Draft 43-Unit Building Design</a></p>
-        </div>
-        <div class="resource_container">
-            <p><img src="images/pdf.png"/> Link number 1</p>
-        </div>
-    </div>
 
-</section>
     
 <section id="FAQ">
     <div class="section_header">
@@ -194,14 +255,25 @@ function cal() {
     </div>
 
 </section>
-<section id="contact">
-    <div class="section_header">
-        <h2>Contact Us</h2>
+
+<section id="resources">
+    <h2>Resources</h2>
+        <p>Here are some useful resources available to download related to the proposed development:</p>
+    <div class="resources">
+        
+        <div class="resource_container">
+            <p><img src="images/pdf.png"/><a href="Docs/Redevelopment_Membership_Handout_May_2022.pdf" target="_blank"> Q & A Handout - May 2022</a></p>
+        </div>
+        <div class="resource_container">
+            <p><img src="images/pdf.png"/><a href="Docs/Norris_Scheme_B-Draft_1.pdf" target="_blank"> Initial Draft 43-Unit Building Design</a></p>
+        </div>
+        <div class="resource_container">
+            <p><img src="images/pdf.png"/> Link number 1</p>
+        </div>
     </div>
-    <div>
-        <p>You can always send your thoughts and ideas to <a href="mailto:norrisredev@gmail.com">norrisredev@gmail.com</a>. This email address should <strong><em>only</em></strong> be used for thoughts related to the new proposed development. </p>
-    </div>
+
 </section>
+
 <section id="footer">
 
 </section>
