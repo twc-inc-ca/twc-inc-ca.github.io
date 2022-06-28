@@ -1,6 +1,6 @@
 html {
     background-color: #3B8BEB;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .header-container {
@@ -72,6 +72,8 @@ html {
 h1 {
     font-size: 1.1rem !important;
     font-family: 'Archivo', sans-serif !important;
+    color: white;
+    margin-top: 10px;
 }
 
 .intro {
@@ -128,6 +130,7 @@ h1 {
 
 .contact-blurb {
     width: 45%;
+    color: white;
 }
 
 .contact-container {
@@ -297,6 +300,8 @@ form {
     padding-left: 10px;
     padding-top: 10px;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #FAQ h2 {
@@ -320,14 +325,18 @@ form {
 
 #resources {
     background-color: #98BBEC ;
+    color: #141414;
     width: 95%;
     margin-left: 2.5%;
     text-align: left;
     padding-top: 10px;
-    color: #F2F2F2;
     padding-left: 10px;
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
+}
+
+#resources a {
+    color: white;
 }
 
 .resources {
@@ -351,10 +360,14 @@ form {
 
 #resources p {
     display:inline-block;
+    font-family: ;
+    font-size: 0.9rem;
+    padding-left: 10px;
 }
 
 .resource_container {
-    border: solid 0.2px #F2F2F2;
+    border: solid 0.2px black;
+    background-color: #B23850;
     text-align: center;
     width: 30%;
     margin: 5px;
@@ -362,7 +375,4 @@ form {
     
 }
 
-.resource_container a {
-    color:#F2F2F2;
-}
 
